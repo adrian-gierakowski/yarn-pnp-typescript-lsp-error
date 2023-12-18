@@ -5,8 +5,7 @@
     "typescript": "5.3.3"
   },
   "dependencies": {
-    "two": "workspace:^",
-    "with-peer-deps": "workspace:^"
+    "two": "workspace:^"
   },
   "main": "dist/index.js"
 }

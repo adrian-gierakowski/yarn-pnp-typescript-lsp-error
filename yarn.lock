@@ -11,7 +11,6 @@ __metadata:
   dependencies:
     two: "workspace:^"
     typescript: "npm:5.3.3"
-    with-peer-deps: "workspace:^"
   languageName: unknown
   linkType: soft
 
@@ -42,16 +41,6 @@ __metadata:
   checksum: 1d0a5f4ce496c42caa9a30e659c467c5686eae15d54b027ee7866744952547f1be1262f2d40de911618c242b510029d51d43ff605dba8fb740ec85ca2d3f9500
   languageName: node
   linkType: hard
-
-"with-peer-deps@workspace:^, with-peer-deps@workspace:packages/with-peer-deps":
-  version: 0.0.0-use.local
-  resolution: "with-peer-deps@workspace:packages/with-peer-deps"
-  dependencies:
-    typescript: "npm:5.3.3"
-  peerDependencies:
-    lodash: "*"
-  languageName: unknown
-  linkType: soft
 
 "yarn-pnp-typescript-lsp-error@workspace:.":
   version: 0.0.0-use.local

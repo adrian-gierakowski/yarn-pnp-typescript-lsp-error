@@ -7,14 +7,11 @@
     "strict": true,
     "skipLibCheck": true,
     "composite": true,
-    "outDir": "dist"
+    "outDir": "dist",
   },
   "references": [
     {
       "path": "../two/tsconfig.json"
-    },
-    {
-      "path": "../with-peer-deps/tsconfig.json"
     }
   ]
 }
